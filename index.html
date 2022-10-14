@@ -1,89 +1,130 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
     <title>Joshua Richardson's Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Joshua Richardson</h1>
-    <img src="Joshua.jpg" alt="Joshua Richardson" width="250">
-    <h2>About</h2>
-    <p>Computer Science major with an emphasis in Software Engineering and a
-      minor in Japanese</p>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <a href="https://demo.cobaltspeech.com/dorado-beta/" target='_blank'>
-          Dorado</a>:
-        <p>Voice verification and identification technology that I assisted in
-        making with a capstone team from BYU based on Cobalt's proof of concept
-        model.</p>
-      </li>
-      <li>
-        <a href="http://github.com/joshuasrichardson/AntHillSearch"
-        target='_blank'>Anthill
-          Search</a>:
-        <p>A simulation of how ants find a new home when their old one has
-          broken. Includes user controls so that users can help the ants.</p>
-      </li>
-      <li>
-        <a href="https://github.com/joshuasrichardson/Recipe" target='_blank'>
-          Recipe Storage</a>:
-        <p>Android app used to help keep track of food storage and recipes.</p>
-      </li>
-      <li>
-        <a href="https://github.com/joshuasrichardson/Flashcard"
-        target='_blank'>Flashcard</a>:
-        <p>A simple flashcard app I made when I was first learning to program.
+    <div class="page">
+      <div class="me">
+        <h1>Joshua Richardson</h1>
+        <img src="Joshua.jpg" alt="Joshua Richardson" width="250" />
+      </div>
+
+      <div class="content">
+        <h2>About</h2>
+        <p>
+          Computer Science major at Brigham Young University with an emphasis in
+          Software Engineering and a minor in Japanese
         </p>
-      </li>
-      <li>
-        <a href="http://joshuasrichardson.com/Web_Dev_Practice/skills.html"
-        target='_blank'>Web Development Practice</a>:
-        <p>A project used to help me start learning how to develop on the web.
-        See source code <a href="https://github.com/joshuasrichardson/Web_Dev_Practice" target='_blank'>here</a>.</p>
-      </li>
-    </ul>
-    <h2>Experience</h2>
-    <ul>
-      <li>
-        <strong>Undergraduate Research Assistant</strong> — <em>BYU CS Department</em>, Provo, UT April 2021 – Present
+        <h2>Work Experience</h2>
+        <h3>
+          <strong>Full Stack Software Engineer Intern</strong> —
+          <em>Instructure</em>, Salt Lake City, UT (Remote) June 2022 – August
+          2022
+        </h3>
         <ul>
-          <li>Research about interactions between users and swarm-based robots.</li>
-          <li>Using Python, implement a simulation representing how ants find new homes.</li>
-          <li>Using Pygame, add 4 different interfaces for different purposes and user controls.</li>
-          <li>Currently have a user-friendly, interactive simulation ready to test many parameters
-            relating to how users interact with the ant colony to help them accomplish their goal.</li>
+          <li>
+            Developed software for learning structures on Canvas LMS such as the
+            calendar, syllabus, and course modules, using React, TypeScript, and
+            Ruby on Rails and following the Agile Scrum process.
+          </li>
+          <li>
+            Enabled administrators to choose days to skip in the due date
+            calculations in Course Pacing..
+          </li>
+          <li>
+            Refactored the old calendar event form to use React instead of
+            jQuery and handlebars.
+          </li>
         </ul>
-      </li>
-      <br/>
-      <li>
-        <strong>Software Designer</strong> — <em>Wolf Tech</em>, Provo, UT August 2021 – September 2021
+        <h3>
+          <strong>CS Research Assistant</strong> — <em>BYU CS Department</em>,
+          Provo, UT April 2021 – Present
+        </h3>
         <ul>
-          <li>Need a device to scare predators away when they approach livestock.</li>
-          <li>Using Arduino UNO, design a device that sets off an alarm at a frequency
-            that scares wolves but not cows when the cows’ heart rate
-            rises (due to being alarmed by the wolves).</li>
-          <li>Made a simplified prototype that sets off an alarm when a
-            potentiometer is turned too far.</li>
+          <li>
+            Research about interactions between users and swarm-based robots.
+          </li>
+          <li>
+            Using Python, implement a simulation representing how ants find new
+            homes.
+          </li>
+          <li>
+            Resulted in a user-friendly, interactive simulation ready to test
+            many parameters relating to how users interact with the ant colony
+            to help them accomplish their goal.
+          </li>
         </ul>
-      </li>
-      <br/>
-      <li>
-        <strong>Discrete Structures Teaching Assistant</strong> — <em>BYU CS Department</em>, Provo, UT January 2021 – May 2021
+        <h3>
+          <strong>Discrete Structures Teaching Assistant</strong> —
+          <em>BYU CS Department</em>, Provo, UT January 2021 – May 2021
+        </h3>
         <ul>
-          <li>Answered questions about propositional logic, sets, relations, and graphs for 15 hours a week.</li>
+          <li>
+            Answered questions about propositional logic, sets, relations, and
+            graphs for 15 hours a week.
+          </li>
           <li>Met with many students throughout each working period.</li>
-          <li>Students were enlightened and encouraged through our meetings.</li>
+          <li>
+            Students were enlightened and encouraged through our meetings.
+          </li>
         </ul>
-      </li>
-    </ul>
-    <hr/>
-    <h3>Contact</h3>
-    <p>Email: joshuasr@byu.edu</p>
-    <p>Github: <a href="https://github.com/joshuasrichardson" target="_blank">
-      https://github.com/joshuasrichardson</a>
-    </p>
-    <p>Linkedin: <a href="https://www.linkedin.com/in/joshua-richardson-19634b204/"
-      target="_blank">https://www.linkedin.com/in/joshua-richardson-19634b204/</a></p>
+        <h2>Projects</h2>
+        <h3>
+          <a href="https://demo.cobaltspeech.com/dorado-beta/" target="_blank">
+            Dorado</a
+          >
+          (<a
+            href="https://dev.demo.cobaltspeech.com/dorado-beta/"
+            target="_blank"
+            >with secure storage server</a
+          >):
+        </h3>
+        <p>
+          Voice verification and identification technology that I assisted in
+          making with a capstone team from BYU based on Cobalt's proof of
+          concept model.
+        </p>
+        <h3>
+          Anthill Search (<a
+            href="http://github.com/joshuasrichardson/AntHillSearch"
+            target="_blank"
+            >source</a
+          >):
+        </h3>
+        <p>
+          A simulation of how ants find a new home when their old one has
+          broken. Includes user controls so that users can help the ants.
+        </p>
+        <h3>
+          <a href="https://joshumi.joshuasrichardson.com" target="_blank">
+            Storage Recipe</a
+          >
+          (<a
+            href="https://github.com/joshuasrichardson/recipe-storage"
+            target="_blank"
+            >source</a
+          >):
+        </h3>
+        <p>Website used to help manage food storage.</p>
+        <h2>Contact</h2>
+        <p>Email: joshuasrichardson1@gmail.com</p>
+        <p>
+          Github:
+          <a href="https://github.com/joshuasrichardson" target="_blank">
+            https://github.com/joshuasrichardson</a
+          >
+        </p>
+        <p>
+          Linkedin:
+          <a
+            href="https://www.linkedin.com/in/joshua-richardson-19634b204/"
+            target="_blank"
+            >https://www.linkedin.com/in/joshua-richardson-19634b204/</a
+          >
+        </p>
+      </div>
+    </div>
   </body>
 </html>
